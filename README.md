@@ -48,10 +48,3 @@ Developed as part of an applied finance and programming learning journey.
 
 - [freeCodeCamp](https://www.freecodecamp.org/) — For inspiring the project with their Quantitative Investing tutorials.
 - [Yahoo Finance](https://finance.yahoo.com/) — For financial data.
-
-```txt
-pandas
-numpy
-yfinance
-openpyxl
-
