@@ -1,64 +1,87 @@
-# learn-strategic-investing
-📊 learn-strategic-investing
-This project is a hands-on application of quantitative investing strategies using Python, Pandas, and financial data from Yahoo Finance. Inspired by freeCodeCamp’s curriculum, I built and customized three full investment strategy pipelines in Jupyter notebooks, each exporting clean, structured output to Excel.
+# Strategic Investing with Python & Pandas
 
-Along the way, I developed deeper skills in:
+This project showcases three quantitative investment strategy notebooks developed in Python using `pandas`, `yfinance`, and `Jupyter Notebook`. The strategies are based on data pulled from Yahoo Finance and leverage metrics from the S&P 500. The output is displayed in well-formatted Excel spreadsheets for easy analysis and portfolio planning.
 
-📦 Anaconda & Jupyter for environment and code management
+All notebooks are based on educational resources from the nonprofit [freeCodeCamp](https://www.freecodecamp.org/), extended with my own implementation and improvements.
 
-🐼 Pandas for data manipulation and ranking
+---
 
-📈 Financial metrics and modeling
+## Project Overview
 
-🔍 Data scraping from Yahoo Finance with yfinance
+### 1. `Equal_Weight_Strategy.ipynb`
+- Filters the top 50 S&P 500 stocks.
+- Calculates the number of shares to buy for each stock with a user-defined portfolio size.
+- Outputs a neatly formatted Excel file.
 
-📊 Excel output formatting with openpyxl
+### 2. `Quantitative_Momentum_Strategy.ipynb`
+- Ranks all S&P 500 stocks based on historical momentum over:
+  - 1-month
+  - 3-month
+  - 6-month
+  - 12-month periods.
+- Builds a momentum score and sorts accordingly.
 
-# 📁 Project Structure
-Equal_Weight_Strategy.ipynb
-Selects the top 50 stocks from the S&P 500
+### 3. `Quantitative_Value_Strategy.ipynb`
+- Scores and ranks S&P 500 stocks based on five valuation metrics:
+  - **P/E** (Price-to-Earnings)
+  - **P/S** (Price-to-Sales)
+  - **P/B** (Price-to-Book)
+  - **EV/EBITDA** (Enterprise Value to EBITDA)
+  - **EV/GP** (Enterprise Value to Gross Profit)
 
-Calculates how many shares to buy for each, based on a fixed portfolio size
+---
 
-Equal capital allocation across all selected stocks
+## ⚙Setup Instructions
 
-Quantitative_Momentum_Strategy.ipynb
-Ranks all S&P 500 stocks by momentum over 1, 3, 6, and 12 months
+### 1. Clone the repository
 
-Scores and weights momentum performance
+```bash
+git clone https://github.com/your-username/learn-strategic-investing.git
+cd learn-strategic-investing
+```
 
-Selects top performers for portfolio allocation
+### 2. Create & activate a virtual environment (optional but recommended)
 
-Quantitative_Value_Strategy.ipynb
-Ranks all S&P 500 stocks by value factors:
+```bash
+conda create -n investing-env python=3.10
+conda activate investing-env
+```
 
-Price-to-Earnings (P/E)
+### 3. Install dependencies
 
-Price-to-Sales (P/S)
+```bash
+pip install -r requirements.txt
+```
 
-Price-to-Book (P/B)
+### 4. Launch Jupyter Notebook
 
-EV/EBITDA (Enterprise Value / EBITDA)
+```bash
+jupyter notebook
+```
 
-EV/GP (Enterprise Value / Gross Profit)
+Open any of the three notebooks and follow the instructions in the cells.
 
-Combines rankings into a composite value score
+## License
 
-Allocates equally across top-value stocks
+This project is licensed under the [MIT License](LICENSE).
 
-# 🧰 Tech Stack
-Python
+---
 
-Jupyter Notebook
+## Author
 
-Pandas
+**Nathan Bell**  
+Developed as part of an applied finance and programming learning journey.
 
+---
+
+## Acknowledgements
+
+- [freeCodeCamp](https://www.freecodecamp.org/) — For inspiring the project with their Quantitative Investing tutorials.
+- [Yahoo Finance](https://finance.yahoo.com/) — For financial data.
+
+```txt
+pandas
+numpy
 yfinance
-
 openpyxl
 
-Excel
-
-Anaconda
-
-⚠️ Disclaimer
