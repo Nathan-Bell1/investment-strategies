@@ -31,6 +31,30 @@ All notebooks are based on educational resources from the nonprofit [freeCodeCam
 
 ---
 
+## Setup
+
+1. Clone this repository:
+```bash
+  git clone https://github.com/yourusername/your-repo-name.git
+  cd your-repo-name
+```
+
+2. Create the conda environment:
+```bash
+  conda env create -f environment.yml
+```
+3. Activate the environment:
+```bash
+  conda activate quantitative-investing-env
+```
+4. Launch Jupyter Notebook:
+```bash
+  jupyter notebook
+```
+
+
+---
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
