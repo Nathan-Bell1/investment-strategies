@@ -31,36 +31,6 @@ All notebooks are based on educational resources from the nonprofit [freeCodeCam
 
 ---
 
-## Setup Instructions
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/learn-strategic-investing.git
-cd learn-strategic-investing
-```
-
-### 2. Create & activate a virtual environment (optional but recommended)
-
-```bash
-conda create -n investing-env python=3.10
-conda activate quantitative-investing-env
-```
-
-### 3. Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open any of the three notebooks and follow the instructions in the cells.
-
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
