@@ -44,7 +44,7 @@ cd learn-strategic-investing
 
 ```bash
 conda create -n investing-env python=3.10
-conda activate investing-env
+conda activate quantitative-investing-env
 ```
 
 ### 3. Install dependencies
