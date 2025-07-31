@@ -31,7 +31,7 @@ All notebooks are based on educational resources from the nonprofit [freeCodeCam
 
 ---
 
-## ⚙Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the repository
 
