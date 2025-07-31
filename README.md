@@ -14,7 +14,7 @@ Along the way, I developed deeper skills in:
 
 📊 Excel output formatting with openpyxl
 
-📁 Project Structure
+# 📁 Project Structure
 Equal_Weight_Strategy.ipynb
 Selects the top 50 stocks from the S&P 500
 
@@ -46,7 +46,7 @@ Combines rankings into a composite value score
 
 Allocates equally across top-value stocks
 
-🧰 Tech Stack
+# 🧰 Tech Stack
 Python
 
 Jupyter Notebook
